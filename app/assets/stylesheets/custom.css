@@ -4,7 +4,7 @@ body {
 }
 
 header {
- background-image: url("/images/tlo.png");
+ background-image: url("/assets/tlo.png");
  background-repeat:repeat-x;
 }
 header img {
@@ -62,7 +62,7 @@ nav ul li a:hover {
 background: #990000;
 padding: 0px;
 height: 74px;
-background: url(images/nav-bg.jpg);
+background: url(/assets/nav-bg.jpg);
 }
 .float-left{
 float: left;
@@ -158,14 +158,14 @@ font-family: Trebuchet MS, Arial, sans-serif, Helvetica;
 font-size:14px;
 text-decoration:none;
 font-weight: bold;
-background: url(images/item-primary-bg.gif);
+background: url(/assets/item-primary-bg.gif);
 background-repeat: no-repeat;
 background-position: top;
 }
 
 #nav-container a:hover{
 color: #6C3600;
-background: url(images/item-primary-bg.gif);
+background: url(/assets/item-primary-bg.gif);
 background-repeat: no-repeat;
 background-position: center;
 }
@@ -174,7 +174,7 @@ background-position: center;
 #nav-container div, #nav-container ul{	
 padding:10px 4px 10px 4px;
 margin:0px 0px 0px 0px;
-background: url(images/item-secondary-container-bg.jpg);
+background: url(/assets/item-secondary-container-bg.jpg);
 background-repeat: repeat-x;
 background-color: #FF9900;
 border-bottom: 1px solid #CA6500;
@@ -184,7 +184,7 @@ border-bottom: 1px solid #CA6500;
 #nav-container div a, #nav-container ul a{	
 padding:3px 10px 3px 6px;
 background-color: #FFFFFF;
-background: url(images/item-secondary-bg.jpg);
+background: url(/assets/item-secondary-bg.jpg);
 background-repeat: no-repeat;
 background-position: 0px 22px;
 font-size:11px;
@@ -197,7 +197,7 @@ width: 149px;
 /*^'^ Secondary Items Hover State ^'^*/	
 #nav-container div a:hover, #nav-container ul a:hover{	
 background-color: #FFFFFF;
-background: url(images/item-secondary-bg.jpg);
+background: url(/assets/item-secondary-bg.jpg);
 background-repeat: no-repeat;
 color:#CC0000;
 }

@@ -1,15 +1,15 @@
 Opensoft::Application.routes.draw do
-  get "menu/home"
 
-  get "menu/firma"
+match '/firma', :to => 'menu#firma'
 
-  get "menu/klienci"
+match '/klienci', :to => 'menu#klienci'
 
-  get "menu/kontakt"
+match '/kontakt', :to => 'menu#kontakt'
 
-  get "menu/oferta"
+match '/oferta', :to => 'menu#oferta'
 
-  get "menu/portfolio"
+match '/portfolio', :to => 'menu#portfolio'
+
 
 root :to => "menu#home"
 

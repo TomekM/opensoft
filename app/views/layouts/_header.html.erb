@@ -10,99 +10,39 @@
 </nav>
 </header>
 <div class="nav-container-outer">
-   <img src="images/nav-bg-l.jpg" alt="" class="float-left" />
-   <img src="images/nav-bg-r.jpg" alt="" class="float-right" />
+<%= image_tag("nav-bg-l.jpg", :alt=>"Brak logo", :class=>"float-left")%>
+<%= image_tag("nav-bg-r.jpg", :alt=>"Brak logo", :class=>"float-right")%>
    <ul id="nav-container" class="nav-container">
-      <li><a class="item-primary" href="#">HOME</a>
+      <li><%= link_to "HOME",root_path %>
          </li>
    
       <li><span class="divider divider-vert" ></span></li>
-      <li><a class="item-primary" href="#">Products</a>
-   
-         <ul style="width:150px;">
-         <li><a href="#">SoftwarePlus</a></li>
-         <li><a href="#">MagicDriver</a></li>
-         <li><a href="#">GreatFX</a></li>
-         <li><a href="#">SampleSoft</a></li>
-         <li><a href="#">UnDoIt</a></li>
-         <li><a href="#">100% CSS Menu</a></li>
-         <li><a href="#;">With Cross-Browser</a></li>
-         <li><a href="#;">Dropdowns</a></li>
-         <li><a href="#;">Absolutely NO Javascript</a></li>
-         <li><a href="#;">Being Used On</a></li>
-         <li><a href="#;">These Menus</a></li>
+      <li><%= link_to "O Firmie",firma_path,:class=>"item-primary" %>
+   <ul>
+         <li><a href="#;">O nas</a></li>
          <li><span class="divider divider-horiz" ></span></li>
-         <li><a href="#;">Example Of a Divider</a></li>
-         <li><a href="#;">With No Title</a></li>
+         <li><a href="#;">Test 1</a></li>
+         <li><a href="#;">Test 2</a></li>
          </ul></li>
    
       <li><span class="divider divider-vert" ></span></li>
-      <li><a class="item-primary" href="#">Quality</a>
-   
-         <ul style="width:150px;">
-         <li><a href="#">SoftwarePlus</a></li>
-         <li><a href="#">MagicDriver</a></li>
-         <li><a href="#">GreatFX</a></li>
-         <li><a href="#">SampleSoft</a></li>
-         <li><a href="#">UnDoIt</a></li>
-         <li><a href="#">100% CSS Menu</a></li>
-         <li><a href="#;">With Cross-Browser</a></li>
-         <li><a href="#;">Dropdowns</a></li>
-         <li><a href="#;">Absolutely NO Javascript</a></li>
-         <li><a href="#;">Being Used On</a></li>
-         <li><a href="#;">These Menus</a></li>
-         <li><span class="divider divider-horiz" ></span></li>
-         <li><a href="#;">Example Of a Divider</a></li>
-         <li><a href="#;">With No Title</a></li>
-         </ul></li>
+      <li><%= link_to "Klienci",klienci_path ,:class=>"item-primary"%>
+   </li>
    
       <li><span class="divider divider-vert" ></span></li>
-      <li><a class="item-primary" href="#">Services</a>
+      <li><%= link_to "Oferta",oferta_path ,:class=>"item-primary"%>
    
-         <ul style="width:150px;">
-         <li><span class="item-secondary-title" >Title For Links</span></li>
-         <li><a href="#">These Links Still Appear</a></li>
-         <li><a href="#">Just Like The Others</a></li>
-         <li><a href="#">Even When Under A Title</a></li>
-         <li><span class="divider divider-horiz" ></span></li>
-         <li><span class="item-secondary-title" >Title After Divider</span></li>
-         <li><a href="#">Once Again...</a></li>
-         <li><a href="#">These Links Still Appear</a></li>
-         <li><a href="#">Just Like The Others</a></li>
-         <li><a href="#">Even When Under A Title</a></li>
-         </ul></li>
+         </li>
    
       <li><span class="divider divider-vert" ></span></li>
-      <li><a class="item-primary" href="#;">Very Long Item</a>
+      <li><%= link_to "Portfolio",portfolio_path ,:class=>"item-primary"%>
    
-         <ul style="width:150px;">
-         <li><span class="item-secondary-title" >Title For Links</span></li>
-         <li><a href="#">These Links Still Appear</a></li>
-         <li><a href="#">Just Like The Others</a></li>
-         <li><a href="#">Even When Under A Title</a></li>
-         <li><span class="divider divider-horiz" ></span></li>
-         <li><span class="item-secondary-title" >Title After Divider</span></li>
-         <li><a href="#">Once Again...</a></li>
-         <li><a href="#">These Links Still Appear</a></li>
-         <li><a href="#">Just Like The Others</a></li>
-         <li><a href="#">Even When Under A Title</a></li>
-         </ul></li>
+        </li>
          
        <li><span class="divider divider-vert" ></span></li>
-      <li><a class="item-primary" href="#;">Fully Flexible</a>
+      <li><%= link_to "Kontakt",kontakt_path ,:class=>"item-primary"%>
    
-         <ul style="width:150px;">
-         <li><span class="item-secondary-title" >Title For Links</span></li>
-         <li><a href="#">These Links Still Appear</a></li>
-         <li><a href="#">Just Like The Others</a></li>
-         <li><a href="#">Even When Under A Title</a></li>
-         <li><span class="divider divider-horiz" ></span></li>
-         <li><span class="item-secondary-title" >Title After Divider</span></li>
-         <li><a href="#">Once Again...</a></li>
-         <li><a href="#">These Links Still Appear</a></li>
-         <li><a href="#">Just Like The Others</a></li>
-         <li><a href="#">Even When Under A Title</a></li>
-         </ul></li>
+        </li>
    <li class="clear">&nbsp;</li></ul>
 </div>
 
